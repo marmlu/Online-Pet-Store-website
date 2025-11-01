@@ -246,7 +246,7 @@ body {
   25%,
   100% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(-90px);
   }
 }
 
@@ -262,7 +262,7 @@ body {
   gap: 300px; /* your requested 400px gap between left/right */
   margin-top: 20px;
   position: relative;
-  transform: translateY(-130px);
+  transform: translateY(10px);
 }
 
 .left,
