@@ -229,24 +229,16 @@ body {
 
 @keyframes adAnimation {
   0%,
-  20% {
+  12% {
     opacity: 1;
-    @keyframes adAnimation {
-      0%,
-      20% {
-        opacity: 1;
-      }
-      25%,
-      100% {
-        opacity: 0;
-        transform: translateY(0);
-      }
-    }
+  }
+  13% 91% {
+    opacity: 0.3;
   }
   25%,
   100% {
     opacity: 0;
-    transform: translateY(-90px);
+    transform: translateY(-350px);
   }
 }
 
@@ -262,7 +254,6 @@ body {
   gap: 300px; /* your requested 400px gap between left/right */
   margin-top: 20px;
   position: relative;
-  transform: translateY(10px);
 }
 
 .left,
@@ -307,7 +298,7 @@ body {
   flex: 1;
 }
 img.second {
-  height: 250px !important;
+  height: 300px !important;
 }
 
 img.thrid {
