@@ -92,7 +92,7 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%, 0%);
   opacity: 0;
   font-size: 1.75rem;
   font-weight: bold;
@@ -114,12 +114,14 @@ body {
 
 @keyframes slideAnimation {
   0%,
-  20% {
+  2% {
     opacity: 1;
+    transform: translate(-50%, 0);
   }
-  25%,
+  10%,
   100% {
     opacity: 0;
+    transform: translate(-50%, -60px);
   }
 }
 
