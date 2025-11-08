@@ -307,24 +307,3 @@ img.thrid {
   height: 160px !important;
   position: relative;
 }
-
-@media (max-width: 768px) {
-  .dots {
-    margin-top: 150px;
-  }
-  .food,
-  .home-decor,
-  .outfit,
-  .thumb-idea {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-
-  .food img,
-  .home-decor img,
-  .outfit img,
-  .thumb-idea img {
-    height: auto; /* let images resize naturally on mobile */
-  }
-}
