@@ -97,3 +97,12 @@
   height: 250px; /* Same height */
   object-fit: cover; /* Keeps aspect ratio */
 }
+.pet-img {
+  width: 200px;
+  height: 200px;
+}
+.pet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
