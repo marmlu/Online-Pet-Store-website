@@ -1,15 +1,16 @@
 <!doctype html>
-<lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Pets Page</title>
     <link rel="stylesheet" href="pets.css" />
-      <link
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
-  <>
+
+  <body>
     <!-- NAVBAR -->
     <header>
       <nav class="navbar">
@@ -19,177 +20,239 @@
           <li><a href="#" class="active">Pets</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <div class="dog-class">
-      <span>Dogs</span>
-    </div>
+
+    <!-- DOGS -->
+    <div class="dog-class"><span>Dogs</span></div>
     <div class="Dogs">
       <div class="dog">
-        <img class="dog-img" src="assets/images/Golden-Retriever.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Golden Retriever</p>
-
+        <img
+          class="dog-img"
+          src="assets/images/Golden-Retriever.jpg"
+          alt="Golden Retriever"
+        />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Golden Retriever
+        </p>
         <p>Age: 2 years</p>
-
-        <p>Price: $600</p>
-
+        <p class="pet-price" data-price="600">Price: $600</p>
         <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
       </div>
+
       <div class="dog">
-        <img class="dog-img" src="assets/images/Siberian-Husky.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Siberian Husky</p>
-
-        <p>Age: 1 years</p>
-
-        <p>Price: $800</p>
-
+        <img
+          class="dog-img"
+          src="assets/images/Siberian-Husky.jpg"
+          alt="Siberian Husky"
+        />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Siberian Husky
+        </p>
+        <p>Age: 1 year</p>
+        <p class="pet-price" data-price="800">Price: $800</p>
         <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
       </div>
-      <div class="dog">
-        <img class="dog-img" src="assets/images/German_Shepherd.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">German Shepherd</p>
 
+      <div class="dog">
+        <img
+          class="dog-img"
+          src="assets/images/German_Shepherd.jpg"
+          alt="German Shepherd"
+        />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          German Shepherd
+        </p>
         <p>Age: 2 years</p>
-
-        <p>Price: $700</p>
-
-        <p style="color: red">Status: Limited Stack</p>
+        <p class="pet-price" data-price="700">Price: $700</p>
+        <p style="color: red">Status: Limited Stock</p>
+        <button class="buy-btn">Buy Now</button>
       </div>
+
       <div class="dog">
-        <img class="dog-img" src="assets/images/pomeranian.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Pomeranian</p>
-
-        <p>Age: 8 month</p>
-
-        <p>Price: $450</p>
-
+        <img
+          class="dog-img"
+          src="assets/images/pomeranian.jpg"
+          alt="Pomeranian"
+        />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Pomeranian
+        </p>
+        <p>Age: 8 months</p>
+        <p class="pet-price" data-price="450">Price: $450</p>
         <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
       </div>
+
       <div class="dog">
-        <img class="dog-img" src="assets/images/pug.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Pug</p>
-
-        <p>Age: 1 years</p>
-
-        <p>Price: $400</p>
-
+        <img class="dog-img" src="assets/images/pug.jpg" alt="Pug" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">Pug</p>
+        <p>Age: 1 year</p>
+        <p class="pet-price" data-price="400">Price: $400</p>
         <p style="color: red">Status: Out of Stock</p>
+        <button class="buy-btn">Buy Now</button>
       </div>
     </div>
-     <div class="cat-class">
-      <span>Cats</span>
-    </div>
+
+    <!-- CATS -->
+    <div class="cat-class"><span>Cats</span></div>
     <div class="Cats">
       <div class="cat">
-        <img class="dog-img" src="assets/images/Maine Coon.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Maine Coon</p>
-
+        <img
+          class="dog-img"
+          src="assets/images/Maine Coon.jpg"
+          alt="Maine Coon"
+        />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Maine Coon
+        </p>
         <p>Age: 2 years</p>
-
-        <p>Price: $1,200</p>
-
+        <p class="pet-price" data-price="1200">Price: $1200</p>
         <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
       </div>
+
       <div class="cat">
-        <img class="dog-img" src="assets/images/Siamese.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Siamese</p>
-
-        <p>Age: 1 years</p>
-
-        <p>Price: $800</p>
-
-        <p>Status: Available</p>
-      </div>
-      <div class="cat">
-        <img class="dog-img" src="assets/images/British short.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">British Shorthair</p>
-
-        <p>Age: 3 years</p>
-
-        <p>Price: 950</p>
-
-        <p style="color: red">Status: Limited Stack</p>
-      </div>
-      <div class="cat">
-        <img class="dog-img" src="assets/images/persian.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Persian</p>
-
-        <p>Age: 15 years</p>
-
-        <p>Price: $1,100</p>
-
-        <p>Status: Available</p>
-      </div>
-      <div class="cat">
-        <img class="dog-img" src="assets/images/Raggal.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Raggal</p>
-
-        <p>Age: 6 months</p>
-
-        <p>Price: $1,500</p>
-
-        <p style="color: red">Status: Out of Stock</p>
-      </div>
-    </div>
-     <div class="bird-class">
-      <span>Birds</span>
-    </div>
-     <div class="Birds">
-      <div class="bird">
-        <img class="dog-img" src="assets/images/Macaw.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Macaw</p>
-
-        <p>Age: 5 years</p>
-
-        <p>Price: $3000</p>
-
-        <p>Status: Available</p>
-      </div>
-      <div class="bird">
-        <img class="dog-img" src="assets/images/Pareket.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Pareket</p>
-
-        <p>Age: 1 years</p>
-
-        <p>Price: $50</p>
-
-        <p>Status: Available</p>
-      </div>
-      <div class="bird">
-        <img class="dog-img" src="assets/images/Cooctok.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Cooctok</p>
-
-        <p>Age: 3 years</p>
-
-        <p>Price: $1500</p>
-
-        <p style="color: red">Status: Limited Stack</p>
-      </div>
-      <div class="bird">
-        <img class="dog-img" src="assets/images/Canary.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Canary</p>
-
-        <p>Age: 9 month</p>
-
-        <p>Price: $100</p>
-
-        <p>Status: Available</p>
-      </div>
-      <div class="bird">
-        <img class="dog-img" src="assets/images/Finch.jpg" />
-        <p style="font-weight: bold; margin-top: 10px">Finch</p>
-
+        <img class="dog-img" src="assets/images/Siamese.jpg" alt="Siamese" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Siamese
+        </p>
         <p>Age: 1 year</p>
+        <p class="pet-price" data-price="800">Price: $800</p>
+        <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
 
-        <p>Price: $30</p>
+      <div class="cat">
+        <img
+          class="dog-img"
+          src="assets/images/British short.jpg"
+          alt="British Shorthair"
+        />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          British Shorthair
+        </p>
+        <p>Age: 3 years</p>
+        <p class="pet-price" data-price="950">Price: $950</p>
+        <p style="color: red">Status: Limited Stock</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
 
+      <div class="cat">
+        <img class="dog-img" src="assets/images/persian.jpg" alt="Persian" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Persian
+        </p>
+        <p>Age: 15 years</p>
+        <p class="pet-price" data-price="1100">Price: $1100</p>
+        <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="cat">
+        <img class="dog-img" src="assets/images/Raggal.jpg" alt="Raggal" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Raggal
+        </p>
+        <p>Age: 6 months</p>
+        <p class="pet-price" data-price="1500">Price: $1500</p>
         <p style="color: red">Status: Out of Stock</p>
+        <button class="buy-btn">Buy Now</button>
       </div>
     </div>
-<footer class="footer">
+
+    <!-- BIRDS -->
+    <div class="bird-class"><span>Birds</span></div>
+    <div class="Birds">
+      <div class="bird">
+        <img class="dog-img" src="assets/images/Macaw.jpg" alt="Macaw" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Macaw
+        </p>
+        <p>Age: 5 years</p>
+        <p class="pet-price" data-price="3000">Price: $3000</p>
+        <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="bird">
+        <img class="dog-img" src="assets/images/Pareket.jpg" alt="Pareket" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Pareket
+        </p>
+        <p>Age: 1 year</p>
+        <p class="pet-price" data-price="50">Price: $50</p>
+        <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="bird">
+        <img class="dog-img" src="assets/images/Cooctok.jpg" alt="Cooctok" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Cooctok
+        </p>
+        <p>Age: 3 years</p>
+        <p class="pet-price" data-price="1500">Price: $1500</p>
+        <p style="color: red">Status: Limited Stock</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="bird">
+        <img class="dog-img" src="assets/images/Canary.jpg" alt="Canary" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Canary
+        </p>
+        <p>Age: 9 months</p>
+        <p class="pet-price" data-price="100">Price: $100</p>
+        <p>Status: Available</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="bird">
+        <img class="dog-img" src="assets/images/Finch.jpg" alt="Finch" />
+        <p class="pet-name" style="font-weight: bold; margin-top: 10px">
+          Finch
+        </p>
+        <p>Age: 1 year</p>
+        <p class="pet-price" data-price="30">Price: $30</p>
+        <p style="color: red">Status: Out of Stock</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
       <p>© 2025 Online Pet Store. All rights reserved.</p>
     </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+      document.querySelectorAll(".buy-btn").forEach((button) => {
+        const card = button.parentElement;
+        const statusText = card
+          .querySelector("p:nth-of-type(4)")
+          .innerText.toLowerCase();
+
+        // Disable button if Out of Stock
+        if (statusText.includes("out of stock")) {
+          button.disabled = true;
+          button.innerText = "Out of Stock";
+        }
+
+        button.addEventListener("click", function () {
+          const petName = card.querySelector(".pet-name").innerText;
+          const price = card.querySelector(".pet-price").dataset.price;
+
+          localStorage.setItem("petName", petName);
+          localStorage.setItem("price", price);
+
+          window.location.href = "payment.html";
+        });
+      });
+    </script>
   </body>
 </html>
