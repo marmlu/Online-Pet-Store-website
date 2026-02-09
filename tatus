@@ -1,0 +1,30 @@
+[33mbbd2c3d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Initial commit for online pet store
+[33mb75ef4d[m first commit
+[33m2375d67[m  work on contact.html, contact.css, payment.html, payment.css and payment.php
+[33mfb6d6b9[m Rearranging pets and products pge and adding about page
+[33m3b69249[m Work on pets page
+[33m715b98a[m Work of Featured-product class mainly
+[33m9eae7ab[m Add border shadow to the popular class images and arrange the button of margin top and margin bottom
+[33m1755c37[m Make the the container-popular class images align horizontally
+[33mfc1aef2[m Work on popular class
+[33md9daec0[m First attempt
+[33mbfa3734[m Work on the class featur grid .row and featur-item
+[33m1058685[m Work on overlay-right class, discover how to make background image a little bit dark so as to see the over laying text or content
+[33m4a03675[m work on overlay-left class, discover how to make background image a little bit dark so as to see the over liying text or content and worl on overlay-right
+[33m89483b4[m Work on the class overlay-right
+[33ma15fb54[m Copy of class practice
+[33me54a486[m inspect the original pinterest clone and copy the outer htm
+[33me358046[m remove media query
+[33m93e1694[m add transform: translate(-50%, 0); on slideAnimation
+[33m595ceed[m add additiontal animation on the existion keyframe(adAnimation), that shows less opacity
+[33md1c13f3[m translate Y on the images
+[33ma234766[m work on translatY on adAnimation
+[33m139e122[m Use TranslateY
+[33m007f9d8[m Improve the image
+[33mb6361f3[m Add responsive design
+[33m64bc134[m work on the adAnimation
+[33mdf2d595[m change @keyframe 0n css
+[33m681b131[m work on soloLearn project
+[33mf928764[m Set animation only using Css
+[33mc92e95e[m Set font-size of logo-name to large
+[33m5e3770f[m Working on pinterest to learn advanced css
